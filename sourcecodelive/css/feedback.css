@@ -1,0 +1,119 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans-regular-webfont.eot');
+    src: url('opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans-regular-webfont.woff') format('woff'),
+         url('opensans-regular-webfont.ttf') format('truetype'),
+         url('opensans-regular-webfont.svg#open_sansregular') format('svg');
+    
+
+}
+
+body { width:100%; 
+       font-family:Tahoma,Geneva,sans-serif;  
+}
+#form { 
+	width:960px;  
+	margin-left:auto; 
+	margin-right:auto; 
+	background-color:#FFF; 
+	border:1px solid #DDD; 
+	padding:10px; 
+	}
+
+strong{ 
+	font-size:12px; 
+	padding-left:10px;
+	color: #3B3B3B;
+    font-family: 'open_sansregular';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+   
+
+
+}
+p { font-size:12px; color: #858585 ;}
+
+h2 { font-size:18px; padding-right:10px; color:#77787c; color: #FF3801;
+    font-family: 'open_sansregular';
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+	padding-top:5px;
+	padding-bottom:15px; 
+	text-transform: uppercase;
+    }
+
+td{ height:40px;  }
+/*tr{ border:solid 1px #DDDDDD;}*/
+
+checkbox  { padding:10px;}
+
+
+
+.textfild {
+    
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #BBBBBB;
+    color: #4B4B4B;
+    font-family: Keffeesatz,Arial;
+    font-size: 14px;
+    height: 18px;
+    margin-left: 115px;
+    margin-top: -25px;
+    padding: 7px;
+    width: 295px;
+
+}
+
+.textfild, .textarea {
+    color: #858585;
+    font-family: Tahoma,Geneva,sans-serif;
+}
+
+.textarea {
+    background: none repeat scroll 0 0 #F3F3F1;
+    border-color: #AEAEAD #F3F3F1 #F3F3F1 #AEAEAD;
+    border-left: 1px solid #AEAEAD;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 11px;
+    height: 80px;  margin:10px 0px;
+	width:960px; 
+}
+select {
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: 1px solid #BBBBBB;
+    color: #555555;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: inherit;
+    height: 34px;
+    margin-left: 113px;
+    margin-top: -10px;
+    overflow: hidden;
+    padding: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 314px;
+}
+
+.link1{
+	
+	padding-left:10px; 
+	background-position:0 3px; 
+	text-decoration:none;
+	line-height:1.2em; 
+	font-weight:normal; 
+	font-style:normal;
+	display:block; 
+   float:left; 
+   font-size: 18px;
+   color: #3B3B3B; margin-top:-22px;
+	  }
+.link1:hover{
+	text-decoration:none; color:#FF3801;
+	 }

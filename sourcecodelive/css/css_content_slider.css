@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+#slider1.unoSlider .sliderView,#slider3.unoSlider .sliderView,#slider4.unoSlider .sliderView{padding:10px;width:280px}#slider2.unoSlider,#slider2.unoSlider ul,#slider2.unoSlider .sliderView{width:358px}
+#slider2.unoSlider ul,#slider2.unoSlider .sliderView{height:240px}
+#slider2{position:relative;margin:0 auto 20px}
+#slider2.unoSlider ul{
+	border:0px solid #ccc;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-o-border-radius:6px;
+	border-radius:0px;
+	-moz-background-clip:padding;
+	-webkit-background-clip:padding-box;
+	background-clip:padding-box;
+	behavior:url(../PIE.php)
+	}
+.ie7 #slider2.unoSlider ul,.ie8 #slider2.unoSlider ul{border:0}
+#slider2 ul li{position:absolute}
+#slider2 .unoSliderNav span{text-shadow:0 -1px 0 #777}
+#slider2 .unoSliderNav span.current{color:#f6671f}
+#slider2 .sliderNavText a{
+	position:absolute;
+	background-image:url(../images/ga-.gif);
+	background-repeat:no-repeat;
+	display:block;
+	height:50px;
+	outline:0 none;
+	text-align:center;
+	text-indent:-9999px;
+	width:18px;
+	top:50%;
+	margin-top:-50px}
+	
+	
+#slider2Back{
+	background-position:
+	0 -100px;left:-24px
+	}
+#slider2Back:hover,#slider2Back:active{background-position:0 -150px}
+#slider2Next{
+	background-position:0 0;
+	right:-40px}
+#slider2Next:hover,#slider2Next:active{background-position:0 -50px}
+#slider2 .sliderNavText{float:left;outline:0}
+#slider2 .unoSliderNav{text-align:center;margin-top:5px}
+#slider2 .sliderNavText a{
+    color: #FF0099;
+    font-weight: bold;
+    margin: -30px 12px -12px 3px;
+    outline: 0 none;
+		}
+#slider2 .sliderNavText a:hover,#slider2 .sliderNavText a:active{color:#444}
+.download-btn{
+	position:absolute;
+	bottom:55px;right:-4px;
+	background:url(../../img/download-btn.png) no-repeat 0 0;
+	width:148px;
+	height:47px;
+	border:0;
+	padding-right:15px;
+	padding-top:27px;
+	font-size:11px;
+	line-height:1em;
+	letter-spacing:-1px;
+	color:#fff;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	text-align:right;
+	cursor:pointer;z-index:100}

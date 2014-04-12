@@ -1,0 +1,3 @@
+1)jquery.marquee_github.js for index.html(jQuery plugin For Marquee)
+2)jquery.simplemodal.js & basic.js for Popup
+3)unoSlider.js, unoSlider.css & css_content_slider.css for Content Slider

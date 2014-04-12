@@ -1,0 +1,154 @@
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans-regular-webfont.eot');
+    src: url('opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans-regular-webfont.woff') format('woff'),
+         url('opensans-regular-webfont.ttf') format('truetype'),
+         url('opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.menu{
+	 border:none; 
+	 border:0px;
+	 margin:0px;
+	 padding-top:17px;
+	 text-transform:uppercase;
+	 padding-left:44px; 
+	 font-weight: bold; 
+	 font-size:14px; 
+	 font-family: 'open_sansregular';
+ }
+ .menu ul{
+	 height:50px;
+	 width:1000px;
+	 list-style:none;
+	 margin:0;
+	 padding:0;
+
+ }
+ .menu li{
+	 float:left;
+	 padding:0px 0px 0px 0px;
+	 color:#666;
+ }
+ .menu li a{	
+	 display:block;
+	 font-weight:normal;
+	 line-height:10px;
+	 margin:0px;
+	 padding:15px 58px 15px 15px;
+	 text-align:center;
+	 text-decoration:none; 
+	 color:#808080;
+	 
+ }
+ .menu li a:hover{
+	 color:#ff3801;
+	 text-decoration:none;
+ 
+ }
+.menu ul li:hover a{
+	 text-decoration:none; 
+ }
+.menu li ul{
+	 display:none; 
+	 height:auto;
+	 padding:0px;
+	 margin:0px;
+	 border:0px;
+	 position:absolute;
+	 width:200px;
+	 z-index:200;
+	 color:#000;
+	 
+ }
+.menu li:hover ul{
+     display:block;
+	 
+ }
+.menu li li {
+	 display:block;
+	 float:none;
+	 margin:0px;
+	 padding:0px;
+	 width:200px; color:#000;
+	 
+}
+.menu li:hover li a{
+	  background:none;
+	  color:#808080;
+	  font-family: 'open_sansregular';
+ }
+ .menu li ul a{
+	 display:block;
+	 height:24px;
+	 font-size:14px;
+	 font-style:normal;
+	 margin:0px;
+	 padding:0px 10px 0px 14px;
+	 text-align:left;
+ }
+ .menu li ul a:hover, .menu li ul li:hover a{
+	 border:0px;
+	 color:#ff3801;
+	 text-decoration:none;
+	
+ 
+ }
+.menu a.current{color:#ff3801; text-decoration:none; } 
+
+
+@media screen and (max-width 480px){
+	
+	
+.menu{
+	 border:none; width:100%;  
+	 border:0px;
+	 margin:0px;
+	 padding-top:10px;
+	 text-transform:uppercase;
+	 font-weight: bold; 
+	 font-size:14px; 
+	 font-family: 'open_sansregular';
+ }
+ .menu ul{
+	 height:50px;
+	 list-style:none;
+	 margin:0;
+	 padding:0;
+
+ }
+ .menu li{
+	 float:left;
+	 padding:0px 0px 0px 15px;
+	 color:#666;
+ }
+ .menu li a{	
+	 display:block;
+	 font-weight:normal;
+	 line-height:10px;
+	 margin:0px;
+	 text-align:center;
+	 text-decoration:none; 
+	 color:#808080;
+	 
+ }
+ .menu li a:hover{
+	 color:#ff3801;
+	 text-decoration:none;
+ 
+ }
+.menu ul li:hover a{
+	 text-decoration:none; 
+ }
+	
+	
+	
+	
+	}
+
+
